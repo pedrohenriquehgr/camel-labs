@@ -1,0 +1,10 @@
+server:
+  port: 8180
+
+spring:
+  application:
+    name: camel-labs
+
+camel:
+  rest:
+    enable-cors: true
