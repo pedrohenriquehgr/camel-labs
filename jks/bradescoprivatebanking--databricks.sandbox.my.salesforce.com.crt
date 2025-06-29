@@ -1,0 +1,158 @@
+pedrohenriquehgr@Mac ~ % openssl s_client -connect bradescoprivatebanking--databricks.sandbox.my.salesforce.com:443 -showcerts
+
+Connecting to 54.233.205.13
+CONNECTED(00000007)
+depth=2 C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root CA
+verify return:1
+depth=1 C=US, O=DigiCert Inc, CN=DigiCert TLS RSA SHA256 2020 CA1
+verify return:1
+depth=0 C=US, ST=California, L=San Francisco, O=Salesforce, Inc., CN=sfdc-xwy4ub.edge.sandbox.my.salesforce.com
+verify return:1
+---
+Certificate chain
+ 0 s:C=US, ST=California, L=San Francisco, O=Salesforce, Inc., CN=sfdc-xwy4ub.edge.sandbox.my.salesforce.com
+   i:C=US, O=DigiCert Inc, CN=DigiCert TLS RSA SHA256 2020 CA1
+   a:PKEY: RSA, 2048 (bit); sigalg: sha256WithRSAEncryption
+   v:NotBefore: Apr 14 00:00:00 2025 GMT; NotAfter: Apr 13 23:59:59 2026 GMT
+-----BEGIN CERTIFICATE-----
+MIIHEDCCBfigAwIBAgIQDq4m73WxKSm0laQqHoX8gzANBgkqhkiG9w0BAQsFADBP
+MQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMSkwJwYDVQQDEyBE
+aWdpQ2VydCBUTFMgUlNBIFNIQTI1NiAyMDIwIENBMTAeFw0yNTA0MTQwMDAwMDBa
+Fw0yNjA0MTMyMzU5NTlaMIGKMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZv
+cm5pYTEWMBQGA1UEBxMNU2FuIEZyYW5jaXNjbzEZMBcGA1UEChMQU2FsZXNmb3Jj
+ZSwgSW5jLjEzMDEGA1UEAxMqc2ZkYy14d3k0dWIuZWRnZS5zYW5kYm94Lm15LnNh
+bGVzZm9yY2UuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAj9nn
+xzyp9R5s9Ed+3IMITdx2hHjtiiNHuA1LWwBn2A2C1cGPy1LMWkFvTP0/aspLyy9o
+rLE4ZT1jXvChPmJ5GKG57NvzwIlHvG1IjJTBHqR9f08hcFC1EelFeuaTnwy2O7ZO
+VGF/kjqXkUqndQP07vUaXXTwCwNY7N1KiNBW2eZONxEwRcOz0wNP1kKtYWOjac/G
+VoylC46pE8dJGG/jIskK6PqiQsB1GHpR4JziYT3F7bBjMqZFRcP/oFYRLenWENbW
+PgLlXAs6rYKBflWXYr+NuJMOiiHBcZ5Vmz3vZlk1G3EyfbnnJyTWpf9Y61uiucd6
+kaM9B8WE8mhb+Sc2nwIDAQABo4IDqjCCA6YwHwYDVR0jBBgwFoAUt2ui6qiqhIx5
+6rTaD5iyxZV2ufQwHQYDVR0OBBYEFNwe/SfcP2jKb5HWpZfkEl/u2Oj+MFIGA1Ud
+EQRLMEmCKnNmZGMteHd5NHViLmVkZ2Uuc2FuZGJveC5teS5zYWxlc2ZvcmNlLmNv
+bYIbKi5zYW5kYm94Lm15LnNhbGVzZm9yY2UuY29tMD4GA1UdIAQ3MDUwMwYGZ4EM
+AQICMCkwJwYIKwYBBQUHAgEWG2h0dHA6Ly93d3cuZGlnaWNlcnQuY29tL0NQUzAO
+BgNVHQ8BAf8EBAMCBaAwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMIGP
+BgNVHR8EgYcwgYQwQKA+oDyGOmh0dHA6Ly9jcmwzLmRpZ2ljZXJ0LmNvbS9EaWdp
+Q2VydFRMU1JTQVNIQTI1NjIwMjBDQTEtNC5jcmwwQKA+oDyGOmh0dHA6Ly9jcmw0
+LmRpZ2ljZXJ0LmNvbS9EaWdpQ2VydFRMU1JTQVNIQTI1NjIwMjBDQTEtNC5jcmww
+fwYIKwYBBQUHAQEEczBxMCQGCCsGAQUFBzABhhhodHRwOi8vb2NzcC5kaWdpY2Vy
+dC5jb20wSQYIKwYBBQUHMAKGPWh0dHA6Ly9jYWNlcnRzLmRpZ2ljZXJ0LmNvbS9E
+aWdpQ2VydFRMU1JTQVNIQTI1NjIwMjBDQTEtMS5jcnQwDAYDVR0TAQH/BAIwADCC
+AX4GCisGAQQB1nkCBAIEggFuBIIBagFoAHcADleUvPOuqT4zGyyZB7P3kN+bwj1x
+MiXdIaklrGHFTiEAAAGWMdf5GQAABAMASDBGAiEA2JgN/x4wixA2Rczc5vHHv9wB
+PGK88KjLGxccgb7zG6wCIQCcQ5AA15kDPmBb2xGrXsez9Ssv0FytmPeRDb2JO29T
+QAB2AGQRxGykEuyniRyiAi4AvKtPKAfUHjUnq+r+1QPJfc3wAAABljHX+WEAAAQD
+AEcwRQIhAIdqNauNVeGLNOfHU3H9dk9IEqmChnfcVjz+gNQeIeH8AiA++H1eXZAv
+TqsFMLaXXIM1U/cod9SAmSW5C+H5GHFkBAB1AEmcm2neHXzs/DbezYdkprhbrwqH
+gBnRVVL76esp3fjDAAABljHX+WcAAAQDAEYwRAIgSQyKgb9DKyH7UeRaIhTN5U9E
+tqJJS9ERc4wuoqrSrnwCIFMVcKhSdDERhkXoDgdK0h91RuUThOssSGQhl+izUgRg
+MA0GCSqGSIb3DQEBCwUAA4IBAQCzrtEPfniOiogB6mVcQhVAAy6+pID9vS7fhXbn
+rwDwbN/Yd5F2VkIa+dyJM2lorA8pcTkfC8igm/QxSjmjZLPcve+hcvWm50FHgpYQ
+l/nH8wUjapdAxuJPPGbZBgpzAOLIApJa+rSwHrrHi2glUKwVf/WtORVlfNfUE5R0
+qDTWA6p+H5/EVM644+TIoEKundN2h6ECDjWS9uuw6TatWz5Rs2lJwm5M6MAWbPLK
+omJa8dQwPjoKdZGlgu5p8sbEimYhvLvI61U1B6Z1+Ve7gjBqU3uNHtc97nXTAH08
+if3P4mbzWEyTW5dbDlYkh4MbhaK8LbVW7qNMzWwRYQ5z6ffS
+-----END CERTIFICATE-----
+ 1 s:C=US, O=DigiCert Inc, CN=DigiCert TLS RSA SHA256 2020 CA1
+   i:C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root CA
+   a:PKEY: RSA, 2048 (bit); sigalg: sha256WithRSAEncryption
+   v:NotBefore: Sep 24 00:00:00 2020 GMT; NotAfter: Sep 23 23:59:59 2030 GMT
+-----BEGIN CERTIFICATE-----
+MIIE6jCCA9KgAwIBAgIQCjUI1VwpKwF9+K1lwA/35DANBgkqhkiG9w0BAQsFADBh
+MQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3
+d3cuZGlnaWNlcnQuY29tMSAwHgYDVQQDExdEaWdpQ2VydCBHbG9iYWwgUm9vdCBD
+QTAeFw0yMDA5MjQwMDAwMDBaFw0zMDA5MjMyMzU5NTlaME8xCzAJBgNVBAYTAlVT
+MRUwEwYDVQQKEwxEaWdpQ2VydCBJbmMxKTAnBgNVBAMTIERpZ2lDZXJ0IFRMUyBS
+U0EgU0hBMjU2IDIwMjAgQ0ExMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKC
+AQEAwUuzZUdwvN1PWNvsnO3DZuUfMRNUrUpmRh8sCuxkB+Uu3Ny5CiDt3+PE0J6a
+qXodgojlEVbbHp9YwlHnLDQNLtKS4VbL8Xlfs7uHyiUDe5pSQWYQYE9XE0nw6Ddn
+g9/n00tnTCJRpt8OmRDtV1F0JuJ9x8piLhMbfyOIJVNvwTRYAIuE//i+p1hJInuW
+raKImxW8oHzf6VGo1bDtN+I2tIJLYrVJmuzHZ9bjPvXj1hJeRPG/cUJ9WIQDgLGB
+Afr5yjK7tI4nhyfFK3TUqNaX3sNk+crOU6JWvHgXjkkDKa77SU+kFbnO8lwZV21r
+eacroicgE7XQPUDTITAHk+qZ9QIDAQABo4IBrjCCAaowHQYDVR0OBBYEFLdrouqo
+qoSMeeq02g+YssWVdrn0MB8GA1UdIwQYMBaAFAPeUDVW0Uy7ZvCj4hsbw5eyPdFV
+MA4GA1UdDwEB/wQEAwIBhjAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIw
+EgYDVR0TAQH/BAgwBgEB/wIBADB2BggrBgEFBQcBAQRqMGgwJAYIKwYBBQUHMAGG
+GGh0dHA6Ly9vY3NwLmRpZ2ljZXJ0LmNvbTBABggrBgEFBQcwAoY0aHR0cDovL2Nh
+Y2VydHMuZGlnaWNlcnQuY29tL0RpZ2lDZXJ0R2xvYmFsUm9vdENBLmNydDB7BgNV
+HR8EdDByMDegNaAzhjFodHRwOi8vY3JsMy5kaWdpY2VydC5jb20vRGlnaUNlcnRH
+bG9iYWxSb290Q0EuY3JsMDegNaAzhjFodHRwOi8vY3JsNC5kaWdpY2VydC5jb20v
+RGlnaUNlcnRHbG9iYWxSb290Q0EuY3JsMDAGA1UdIAQpMCcwBwYFZ4EMAQEwCAYG
+Z4EMAQIBMAgGBmeBDAECAjAIBgZngQwBAgMwDQYJKoZIhvcNAQELBQADggEBAHer
+t3onPa679n/gWlbJhKrKW3EX3SJH/E6f7tDBpATho+vFScH90cnfjK+URSxGKqNj
+OSD5nkoklEHIqdninFQFBstcHL4AGw+oWv8Zu2XHFq8hVt1hBcnpj5h232sb0HIM
+ULkwKXq/YFkQZhM6LawVEWwtIwwCPgU7/uWhnOKK24fXSuhe50gG66sSmvKvhMNb
+g0qZgYOrAKHKCjxMoiWJKiKnpPMzTFuMLhoClw+dj20tlQj7T9rxkTgl4ZxuYRiH
+as6xuwAwapu3r9rxxZf+ingkquqTgLozZXq8oXfpf2kUCwA/d5KxTVtzhwoT0JzI
+8ks5T1KESaZMkE4f97Q=
+-----END CERTIFICATE-----
+---
+Server certificate
+subject=C=US, ST=California, L=San Francisco, O=Salesforce, Inc., CN=sfdc-xwy4ub.edge.sandbox.my.salesforce.com
+issuer=C=US, O=DigiCert Inc, CN=DigiCert TLS RSA SHA256 2020 CA1
+---
+No client certificate CA names sent
+Peer signing digest: SHA256
+Peer signature type: rsa_pss_rsae_sha256
+Peer Temp Key: X25519, 253 bits
+---
+SSL handshake has read 3639 bytes and written 1673 bytes
+Verification: OK
+---
+New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+Protocol: TLSv1.3
+Server public key is 2048 bit
+This TLS version forbids renegotiation.
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 0 (ok)
+---
+---
+Post-Handshake New Session Ticket arrived:
+SSL-Session:
+    Protocol  : TLSv1.3
+    Cipher    : TLS_AES_256_GCM_SHA384
+    Session-ID: 4E0A63E623FB6BB9AD0ABAC88C7D1C18CE57982BB1C7B2DB34DF50AED7BCA104
+    Session-ID-ctx: 
+    Resumption PSK: 92925A2E4FF73F48FC80D2BA6FDF4B091D7ED9FCB28F63D90782B5579927594698FFFB78F00F6FC116D4C39618549FDB
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    TLS session ticket lifetime hint: 300 (seconds)
+    TLS session ticket:
+    0000 - e5 cf 27 cd f3 05 b9 1c-07 04 99 3b 5e 55 ae d7   ..'........;^U..
+    0010 - de 6f fc 14 07 6c 31 3e-b2 94 c0 4a 41 01 46 21   .o...l1>...JA.F!
+
+    Start Time: 1751156606
+    Timeout   : 7200 (sec)
+    Verify return code: 0 (ok)
+    Extended master secret: no
+    Max Early Data: 0
+---
+read R BLOCK
+---
+Post-Handshake New Session Ticket arrived:
+SSL-Session:
+    Protocol  : TLSv1.3
+    Cipher    : TLS_AES_256_GCM_SHA384
+    Session-ID: C6A742461CA0C61A86C8A051C1E2BAEE977D2F746E7067E6EBCD82BFD28D9319
+    Session-ID-ctx: 
+    Resumption PSK: 7F5C5A7B3072FBC889AEB5511442B5BAD71B9024F9F9FB98D273DFC31B864DD436E555AB428AD7F55AA23E18AE994EE9
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    TLS session ticket lifetime hint: 300 (seconds)
+    TLS session ticket:
+    0000 - e8 a8 90 84 62 ee 5d da-06 77 04 8e d0 5f a5 3d   ....b.]..w..._.=
+    0010 - b4 ac d2 cb f1 6b 02 f2-8c e5 b9 5b 5c e2 6a 79   .....k.....[\.jy
+
+    Start Time: 1751156606
+    Timeout   : 7200 (sec)
+    Verify return code: 0 (ok)
+    Extended master secret: no
+    Max Early Data: 0
+---
+read R BLOCK
