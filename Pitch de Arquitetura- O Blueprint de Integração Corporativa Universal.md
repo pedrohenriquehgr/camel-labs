@@ -1,6 +1,3 @@
-Aqui está a versão definitiva e enriquecida do seu Pitch de Arquitetura.
-Adicionei uma seção final chamada Referências Técnicas, estruturada de forma limpa com links diretos oficiais para que qualquer arquiteto da banca possa validar e se aprofundar nos conceitos, componentes de segurança e casos de sucesso citados no blueprint.
-------------------------------
 ## Pitch de Arquitetura: O Blueprint de Integração Corporativa Universal
 
 ## 1. O Desafio do Alinhamento Tecnológico e de Ferramental
@@ -99,6 +96,3 @@ Governança de dependências abertas e compliance de licenças de código.
 
 * Cases Oficiais de Empresas: Apache Camel Stories & Users [1]
 Casos detalhados e relatos de uso de grandes instituições como UPS, CERN, IndiGo Airlines e Temenos, comprovando a robustez da tecnologia.
-
-Com a seção de referências adicionada, o documento está 100% blindado para a banca. Deseja realizar mais algum ajuste estratégico na ordem dos tópicos ou quer avançar para a estruturação dos slides de apresentação com base neste roteiro?
-
