@@ -13,7 +13,7 @@ Adicionei uma seção final chamada Referências Técnicas, estruturada de forma
 ## 2. A Solução: O Blueprint Cloud-Native e Híbrido (Spring + Apache Camel)
 Propomos um padrão arquitetural baseado em microsserviços modernos rodando em containers, dividindo de forma clara as responsabilidades de processamento, gerenciamento de estado e roteamento. O grande trunfo deste modelo é sua arquitetura híbrida, capaz de operar perfeitamente em dois mundos: Batch de Alto Volume e Streaming Event-Driven em Tempo Real.
 
-![Diagrama de Fluxo da Arquitetura Híbrida](blueprint_integration_arch_styles.jpeg)
+![Diagrama de Fluxo da Arquitetura Híbrida](assets/img/blueprint_integration_arch_styles.jpeg)
 
 ## O Funcionamento Dinâmico nos Dois Modelos
 
